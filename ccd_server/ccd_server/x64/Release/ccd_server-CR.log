@@ -1,0 +1,8 @@
+﻿  stdafx.cpp
+  main.cpp
+f:\文档\onedrive\【02】projects\ccd_server\ccd_server\ccd_server\main.cpp(116): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  thread1.cpp
+f:\文档\onedrive\【02】projects\ccd_server\ccd_server\ccd_server\thread1.cpp(27): warning C4101: “current_grabbedImages”: 未引用的局部变量
+stdafx.obj : error LNK2005: "struct mystruct pass_struct" (?pass_struct@@3Umystruct@@A) 已经在 main.obj 中定义
+thread1.obj : error LNK2005: "struct mystruct pass_struct" (?pass_struct@@3Umystruct@@A) 已经在 main.obj 中定义
+F:\文档\onedrive\【02】Projects\ccd_server\ccd_server\x64\Release\ccd_server.exe : fatal error LNK1169: 找到一个或多个多重定义的符号

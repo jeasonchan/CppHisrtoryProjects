@@ -1,0 +1,8 @@
+﻿  thread1.cpp
+f:\文档\onedrive\【02】projects\ccd_server\ccd_server\ccd_server\thread1.cpp(18): error C3927: "->": 非函数声明符后不允许尾随返回类型
+f:\文档\onedrive\【02】projects\ccd_server\ccd_server\ccd_server\thread1.cpp(18): error C3484: 语法错误: 返回类型前应为“->”
+f:\文档\onedrive\【02】projects\ccd_server\ccd_server\ccd_server\thread1.cpp(18): error C3613: “->”后缺少返回类型(假定为“int”)
+f:\文档\onedrive\【02】projects\ccd_server\ccd_server\ccd_server\thread1.cpp(18): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+f:\文档\onedrive\【02】projects\ccd_server\ccd_server\ccd_server\thread1.cpp(18): error C2371: “pass_struct”: 重定义；不同的基类型
+  f:\文档\onedrive\【02】projects\ccd_server\ccd_server\ccd_server\thread1.cpp(17): note: 参见“pass_struct”的声明
+f:\文档\onedrive\【02】projects\ccd_server\ccd_server\ccd_server\thread1.cpp(18): error C2146: 语法错误: 缺少“;”(在标识符“result”的前面)

@@ -1,0 +1,32 @@
+
+报文格式
+
+:发送者-接受者-指令-数据?
+
+发送者、接收者:
+服务器端00,客户端01
+
+指令:
+1、拍照命令
+client to server “:01-00-01-xxxxxxxxxxxxxxxx?” //xxxxxxxxxxxxxxxx照片存储的全路径，是一串字符串
+server to client “:00-01-01-xx?”//00-成功,01-失败
+
+示例:
+client to server ":01-00-01-D:\试验数据\PL-HS-ZC001-20180824-201801\Pic_CCD\N10.jpg?"
+
+2、检查相机命令
+client to server “:01-00-02?”
+server to client ":00-01-02-xx?"//xx:00-正常,01-不正常
+
+3、退出程序命令
+client to server “:01-00-03?” //退出server进程
+
+4、查询裂纹命令：
+client to server ":01-00-04?" //试件出现裂纹
+server to client ":00-01-04-xx?" //xx:00-没有裂纹,01-试件出现裂纹
+
+其余设置：
+IP：127.0.0.1
+端口号 7000
+
+ccd_server.exe

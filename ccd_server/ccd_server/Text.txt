@@ -1,0 +1,19 @@
+client to server:“:01-00-01-xxxxxxxxxxxxxxxx?”
+server to client:“:00-01-01-00?”//成功，非00失败
+
+解析:
+00 发报机器，服务器端00，客户端01
+01 收报机器，服务器端00，客户端01
+01 执行任务编号；01表示执行拍照任务,
+xxxxxxxxxxxxxxxx 照片存储的全路径，是一串字符串
+? 表示报文结束
+
+client to server:“:01-00-02?”
+server to client:":00-01-02-00?"//正常，非00不正常
+
+client to server:“:01-00-03?” //退出server进程
+
+IP：127.0.0.1
+端口号 7000
+
+ccd_server.exe
